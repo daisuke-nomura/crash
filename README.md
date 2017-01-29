@@ -11,8 +11,7 @@ NOTE: To prevent crashes, **REMOVE THIS LIBRARY on release build**.
 
 ##Sample usage
 
-1. Cause a crash at @UiThread/@MainThread if thread is NOT UI/main thread. Throws ExecuteOnWorkerThreadException.
-
+Cause a crash at @UiThread/@MainThread if thread is NOT UI/main thread. Throws ExecuteOnWorkerThreadException.
 
     new AsyncTask<Void, Void, Void>() {
         @UiThread
@@ -23,8 +22,7 @@ NOTE: To prevent crashes, **REMOVE THIS LIBRARY on release build**.
         }
     }.execute();
 
-2. Cause a crash at @WorkerThread if thread is main thread. Throws ExecuteOnMainThreadException.
-
+Cause a crash at @WorkerThread if thread is main thread. Throws ExecuteOnMainThreadException.
 
     //create handler on UI/main thread
     handler.postDelayed(new Runnable() {
@@ -42,7 +40,6 @@ Add [aspectjx][aspectjx] plugin. aspectjx is great and very useful for AspectJ s
     buildscript {
         repositories {
             jcenter()
-            maven { url 'https://jitpack.io' }
         }
         dependencies {
             classpath 'com.android.tools.build:gradle:2.2.3'
@@ -52,6 +49,7 @@ Add [aspectjx][aspectjx] plugin. aspectjx is great and very useful for AspectJ s
 
     allprojects {
         repositories {
+            jcenter()
             maven { url "https://jitpack.io" }
         }
     }
