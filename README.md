@@ -76,7 +76,7 @@ Please use [GitHub Issues][issues].
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
   
-       http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
   
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -84,8 +84,14 @@ Please use [GitHub Issues][issues].
    See the License for the specific language governing permissions and
    limitations under the License.
 
-
+##Reference
+I referred [Hugo][hugo-runtime] and [android 10 coder article][android10], [stackoverflow][stackoverflow], [Qiita][qiita], [AspectJX-Demo][AspectJX-Demo] to build AspectJ code.
 
 [hugo]: https://github.com/JakeWharton/hugo
 [aspectjx]: https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx
 [issues]: https://github.com/daisuke-nomura/crash/issues
+[hugo-runtime]: https://github.com/JakeWharton/hugo/blob/master/hugo-runtime/src/main/java/hugo/weaving/internal/Hugo.java
+[android10]: http://fernandocejas.com/2014/08/03/aspect-oriented-programming-in-android/
+[stackoverflow]: http://stackoverflow.com/questions/31142125/aspectj-with-android-library
+[qiita]: http://qiita.com/pe-suke/items/56dd2b8e277d174ac10a
+[AspectJX-Demo]: https://github.com/HujiangTechnology/AspectJX-Demo
