@@ -61,7 +61,7 @@ apply plugin
 and
 
     dependencies {
-        debugCompile 'com.github.daisuke-nomura:crash:1.0.0'
+        debugCompile 'com.github.daisuke-nomura:crash:1.0.1'
     }
 
 ##Bugs and Feedback
