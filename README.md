@@ -9,7 +9,7 @@ This library is inspired by Jake Wharton's [Hugo][hugo].
 
 NOTE: To prevent crashes, **REMOVE THIS LIBRARY on release build**.
 
-##Sample usage
+## Sample usage
 
 Cause a crash at @UiThread/@MainThread if thread is NOT UI/main thread. Throws ExecuteOnWorkerThreadException.
 
@@ -33,7 +33,7 @@ Cause a crash at @WorkerThread if thread is main thread. Throws ExecuteOnMainThr
         }
     }, 0);
 
-##Binaries
+## Binaries
 
 Add [aspectjx][aspectjx] plugin. aspectjx is great and very useful for AspectJ support.
 
@@ -64,11 +64,11 @@ and
         debugCompile 'com.github.daisuke-nomura:crash:1.0.1'
     }
 
-##Bugs and Feedback
+## Bugs and Feedback
 
 Please use [GitHub Issues][issues].  
 
-##License
+## License
 
    Copyright 2017 Daisuke Nomura
 
@@ -84,7 +84,7 @@ Please use [GitHub Issues][issues].
    See the License for the specific language governing permissions and
    limitations under the License.
 
-##Reference
+## Reference
 I referred [Hugo][hugo-runtime] and [android 10 coder article][android10], [stackoverflow][stackoverflow], [Qiita][qiita], [AspectJX-Demo][AspectJX-Demo] to build AspectJ code.
 
 [hugo]: https://github.com/JakeWharton/hugo
