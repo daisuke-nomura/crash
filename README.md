@@ -42,8 +42,8 @@ Add [aspectjx][aspectjx] plugin. aspectjx is great and very useful for AspectJ s
             jcenter()
         }
         dependencies {
-            classpath 'com.android.tools.build:gradle:2.2.3'
-            classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.0.9'
+            classpath 'com.android.tools.build:gradle:3.0.0'
+            classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.1.0'
         }
     }
 
@@ -61,7 +61,7 @@ apply plugin
 and
 
     dependencies {
-        debugCompile 'com.github.daisuke-nomura:crash:1.0.1'
+        debugImplementation 'com.github.daisuke-nomura:crash:1.0.2'
     }
 
 ## Bugs and Feedback
